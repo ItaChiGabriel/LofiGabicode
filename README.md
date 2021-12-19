@@ -5,4 +5,4 @@
 
 <h2>Linguagens usadas/Tecnologia ⚙️</h2>
 
-<p>JavaScript, discord.js, node.js e Datebase</p>
+<p>JavaScript, discord.js, node.js, Datebase e Ytdl-core</p>
