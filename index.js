@@ -38,7 +38,7 @@ client.on('ready', async() =>{
     
     client.user.setStatus('idle');
 
-    channel = client.channels.cache.get(config.channelId) || await client.channels.fetch(config.channelId);
+    channel = client.channels.cache.get(config.canais) || await client.channels.fetch(config.canais);
     gabriel = client.voice.createBroadcast();
     Oline.on('error', console.error);
     gabriel.play(Oline);
